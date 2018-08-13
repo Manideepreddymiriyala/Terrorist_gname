@@ -19,7 +19,7 @@ Pre-Processing:
 In the dataset, there are many features with missing values greater than 70%. Such Columns are dropped.
 
 
-Also, there is only 1 row for some Target variable. In such cases,it might only be in test set and gets classified as another class which  brings down the evaluation metric.So, to avoid that those cases are oversampled by cloning the records.
+Also, there is only 1 row for some classes in Target variable. In such cases,it might only be in one set and gets classified as another class which brings down the evaluation metric.So, to avoid that those cases were oversampled by cloning the records.
 
 To label the categorical variables, factorize the class labels.
 
@@ -37,7 +37,7 @@ Evaluation metric:
 
 
 Evaluation metrics used are Accuracy and roc-auc score for each class to show how the model is performing in predicting the classes.
-And roc-auc is a good measure as it measures the sensitivity of classification. 
+And roc-auc is a good measure for classification as it measures the sensitivity of classification. 
 
 
 Improvements in mind to execute in future:
