@@ -1,4 +1,8 @@
 # Terrorist Dataset
+
+The reason I chose this challenge is because it gave me a chance to implement the things I have learnt through the book
+"Andreas C. Müller, Sarah Guido-Introduction to Machine Learning with Python_ A Guide for Data Scientists-O’Reilly Media (2016)".
+
 EDA:
 
 In this challenge,the scope for EDA is less as all the information that can can be extracted are already given as Features.
