@@ -30,7 +30,8 @@ Model selection:
 
 
 RandomforestClassifier is used to classify the target variable. Other classifiers have some limitations like SVClassifier has scalibity issue where it is difficult to scale for datasets more than 10k rows.Logistic Regression works for this multi-class classification but accuracy will not be as much as Randomforest as this dataset is heavily imbalanced while this bias does not effect Randomforest model.
-Boosting models like XGBoost and Gradient boosting are highly sensitive to bias. So, XGboost wouldn't be a good choice even though it improves the accuracy in some cases.
+Generally, boosting models are more sensitive to bias than bagging models.
+Boosting models like XGBoost and Gradient boosting wouldn't have be a good choice even though it improves the accuracy in some cases.
 
 Evaluation metric:
 
