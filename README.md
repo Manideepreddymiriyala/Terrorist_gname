@@ -32,3 +32,14 @@ Evaluation metric:
 Evaluation metric used is Accuracy and roc-auc score for each class to show how the model is performing in predicting the classes. 
 
 Due to Memory constraints,I am unable to run GridsearchCV on Randomforest parameters. Similarly, I couldn't run XGboost aswell.But, XGboost would have improved the score.
+
+Improvements in mind to execute in future:
+
+Model Validation:
+
+Divide the dataset into train,validation and test sets so that I can validate on validation set and predict on test set.
+
+Ensembling:
+
+
+Use ensembling methods like stacking to improvise and make a robust prediction.
